@@ -51,7 +51,7 @@ export default function CommunitiesFeed() {
             </div>
           </a>
         ))}
-        <p className="text-center font-light cursor-pointer">show 5 more</p>
+        <p className="text-center cursor-pointer text-gray-500">show 5 more</p>
       </nav>
     </>
   );

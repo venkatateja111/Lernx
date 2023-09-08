@@ -1,10 +1,9 @@
-import React from "react";
-import CircularProgressBar from "./circle";
+import CircularProgressBarComponent from "./circularProgressBarComponent";
 
-export default function ProgressBar(props) {
+export default function WheelOfOpportunities(props) {
   return (
     <>
-      <div className=" p-4 m-4 bg-slate-100">
+      <div className=" p-4 m-4 bg-slate-100 rounded-[50px] mb-14">
         <div className="flex justify-center">
           <p className="mr-1">Wheel of opportunities</p>
           <svg
@@ -23,7 +22,7 @@ export default function ProgressBar(props) {
           </svg>
         </div>
         <br />
-        {/* <CircularProgressBar progress={"25"} /> */}
+        <CircularProgressBarComponent value={350} />
       </div>
     </>
   );

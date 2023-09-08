@@ -1,6 +1,6 @@
 import OnlineLinks from "./onlineLinks";
 import Picture from "./picture";
-import ProgressBar from "./progressBar";
+import WheelOfOpportunities from "./wheelOfOpportunities";
 import RadioBtn from "./radioBtn";
 
 export default function Index() {
@@ -10,7 +10,7 @@ export default function Index() {
         <Picture />
         <RadioBtn />
         <OnlineLinks />
-        <ProgressBar />
+        <WheelOfOpportunities />
       </div>
     </>
   );
