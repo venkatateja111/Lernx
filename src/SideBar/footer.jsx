@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <div className="absolute w-[14rem] left-0 bottom-0 pr-5 py-3">
+      <div className="absolute min[640px]:w-[14rem] max[639px]:w-full  left-0 bottom-0 pr-5 py-3">
         <div className="flex justify-center flex-wrap gap-x-3 gap-y-2 text-2xs text-letters-tertiary">
           <a
             className="hover:text-brand-primary hover:underline cursor-pointer"

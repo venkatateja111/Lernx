@@ -6,7 +6,7 @@ import CommunitiesFeed from "./communitiesFeed";
 const Sidebar = () => {
   return (
     <>
-      <nav className="fixed top-0 left-0 w-full h-full border-r bg-white space-y-8 sm:w-60">
+      <nav className="fixed top-0 left-0 w-full h-full border-r bg-white space-y-8 sm:w-60 z-10">
         <div className="flex flex-col h-full">
           <Logo />
           <div className="flex-1 flex flex-col h-full overflow-auto px-2 py-2.5 pl-4">
